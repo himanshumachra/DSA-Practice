@@ -1,4 +1,34 @@
-hii it is an try for the text to 
-crete a new file for each time 
-and we go for it 
-this is the truth
+a = [
+    [10,20,30],
+    [40,50,60],
+    [70,80,90]
+]
+
+sro = 0
+scol = 0
+ero = len(a)
+ecol = len(a[0])
+
+while sro < ero and scol < ecol:
+
+    # top row
+    for i in range(scol, ecol):
+        print(a[sro][i], end=" ")
+    sro += 1
+
+    # right column
+    for j in range(sro, ero):
+        print(a[j][ecol - 1], end=" ")
+    ecol -= 1
+
+    # bottom row
+    if sro < ero:
+        for k in range(ecol - 1, scol - 1, -1):
+            print(a[ero - 1][k], end=" ")
+        ero -= 1
+
+    # left column
+    if scol < ecol:
+        for l in range(ero - 1, sro - 1, -1):
+            print(a[l][scol], end=" ")
+        scol += 1
