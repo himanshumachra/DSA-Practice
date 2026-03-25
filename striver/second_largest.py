@@ -7,4 +7,4 @@ class Solution:
         return k
 a=Solution()
 nums=([8, 8, 7, 6, 5])
-a.secondLargestElement(nums)
+print(a.secondLargestElement(nums))

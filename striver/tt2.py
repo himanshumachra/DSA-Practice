@@ -1,4 +1,11 @@
-a=[1,2,3,4,5,6,7,8]
+def unq(n):
+    uq=list()
+    for k in n:
+        if not k in uq :
+            uq.append(k)
+    print(len(uq))
+k=("sdfasdfasfasdfasdfas465y34526bsdgsdqwertrtyuuiiopp[o]lp[l\';/.,mn,mvnbczxasfdhjghjkvfjvjv!@#$!@#$%@#$%^&*df")
+n="aaaaaaaaaaaaa"
+unq(n)
 
-for i in range(1,len(a)+1):
-    print(i,end=" ")
+print(len(n))
