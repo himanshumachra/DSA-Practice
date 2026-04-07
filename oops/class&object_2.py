@@ -13,5 +13,5 @@ class student:
         print("The average marks of",self.name,"in 3 subjects are",av,"%")
 
 s1=student("raj",99,98,97)
-s1.name="jack sparo"
+s1.name="jack sparo" #to change the value of a object in the class
 s1.avg()
