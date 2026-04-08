@@ -1,6 +1,15 @@
-x=[1,5,6,4,8,96,32,5,6,45,8,96,55,554,87,894,213,354,98732.5,754,254,8515,54,5687,877,23,10,9,7487]
-x.sort()
-print(x)
-a=0
-x.pop(a)
-print(x)
+class Solution:
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        target=2
+        a=0
+        b=len(numbers)-1
+        while a < b:
+            if numbers[a]+numbers[b] == target:
+                print(a +1 , b +1 )
+                break
+            elif numbers[a]+numbers[b] > target:
+                b=b-1
+            elif numbers[a]+numbers[b]<target:
+                a=a+1
+a=Solution()
+a.twoSum([0,0,2,3,4],2)

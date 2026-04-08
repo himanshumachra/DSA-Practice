@@ -1,10 +1,9 @@
-x=[1,5,6,4,8,96,32,5,6,45,8,96,55,554,87,894,213,354,98732.5,754,254,8515,54,5687,877,23,10,9,7487]
-tr=6
-a=0
-b=1
-for a in range(len(x)):
-    if x[a]==tr:
-        x[a],x[b]=x[b],x[a]
-        a=a+1
-        b=b+1
-print(x)
+arr = [3, 2, 2, 3]
+val = 3
+a = 0
+for b in range(len(arr)): 
+    if arr[b] != val:
+        arr[a] = arr[b]
+        a += 14
+        
+print(arr[:a])  
