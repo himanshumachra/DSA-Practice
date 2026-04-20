@@ -2,8 +2,10 @@ import matplotlib.pyplot as plt
 import seaborn as sas 
 import random
 import pandas as pd
+
 x= random.sample(range(34,100),14)
 y = random.sample(range(1,24), 14)
+
 plt.scatter(x,y,color='red',marker='*')
 plt.title(" time studied and marks got")
 plt.xlabel("marks")
