@@ -6,7 +6,7 @@ newl=[]
 a=0
 b=0
 while a < len(l1) and b<len(l2):
-    if l1[a]<=l2[b]:
+    if l1[a]<=l2[b]:  
         newl.append(l1[a])
         a=a+1
     elif l1[a]>=l2[b]:
