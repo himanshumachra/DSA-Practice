@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sas 
 
 bt = pd.read_csv("sharma-kohli.csv")
-plt.plot(bt['index'],bt['V Kohli'],color='grey',linewidth=2,marker='o',markersize=5,label='virat')
+plt.plot(bt['index'],bt['V Kohli'],color='grey',linewidth=2,marker='o',markersize=5,label='viratcbvxxcbxcv')
 plt.plot(bt['index'],bt['RG Sharma'],color='red',linewidth=2,marker='*',markersize=5,label='sharma')
 plt.xlabel('season')
 plt.ylabel('RUNS')
